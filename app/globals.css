@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --site-bg-color: #09090b;
+  --header-text-color: #ffffff;
+  --desc-text-color: #a1a1aa;
+  --btn-bg-color: #ffffff;
+  --btn-text-color: #09090b;
+  --nav-text-color: #f4f4f5;
+  --nav-bg-color: #09090bcc;
+  --hover-accent-color: #a855f7;
+
+  --primary-color: #ffffff;
+  --accent-color: #a855f7;
+  --button-text-color: #09090b;
+}
+
+@theme {
+  --font-inter: var(--font-inter), "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-purple-950: rgba(20, 15, 28, 0.95);
+  --color-purple-900: rgba(30, 20, 42, 0.9);
+  --color-purple-800: var(--hover-accent-color);
+  --color-purple-700: var(--hover-accent-color);
+  --color-purple-600: var(--hover-accent-color);
+  --color-purple-500: var(--hover-accent-color);
+  --color-purple-400: var(--hover-accent-color);
+  --color-purple-300: var(--hover-accent-color);
+  --color-purple-200: var(--hover-accent-color);
+  --color-purple-100: var(--hover-accent-color);
+  --color-yellow-500: var(--hover-accent-color);
+  --color-yellow-300: var(--hover-accent-color);
+}
+
+body {
+  font-family: var(--font-inter), "Inter", ui-sans-serif, system-ui, sans-serif;
+  background-color: var(--site-bg-color, #09090b);
+  color: var(--desc-text-color, #a1a1aa);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
