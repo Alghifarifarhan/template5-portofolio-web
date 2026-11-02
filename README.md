@@ -1,4 +1,4 @@
-# 🚀 Olivia Portfolio — Dynamic Next.js & Firebase CMS
+# 🚀 Portfolio Template 5 — Dynamic Next.js & Firebase CMS
 
 Website portofolio modern, dinamis, dan responsif yang dibangun menggunakan arsitektur **Next.js 15 (App Router)** dan ditenagai oleh **Google Firebase (Firestore & Authentication)**. Website ini dilengkapi dengan dashboard **Admin CMS interaktif** yang memungkinkan pengelolaan konten (teks, foto, karya/proyek, sertifikat, tautan media sosial, serta warna tema tampilan) secara langsung tanpa perlu menyunting baris kode.
 
@@ -145,36 +145,6 @@ Buka peramban (browser) dan akses:
 - **Halaman Admin Dashboard**: [http://localhost:3000/admin](http://localhost:3000/admin)
 
 Masuk ke panel admin menggunakan email dan password yang telah Anda daftarkan di Firebase Authentication pada Langkah 3.
-
----
-
-## 📦 Build & Deployment
-
-### 1. Build Proyek
-Untuk menguji hasil build sebelum di-deploy ke server hosting:
-```bash
-npm run build
-```
-Perintah ini akan melakukan kompilasi file statis siap rilis ke dalam direktori `/out`.
-
-### 2. Deploy ke Firebase Hosting
-Pastikan Anda telah memasang Firebase CLI:
-```bash
-npm install -g firebase-tools
-```
-
-Login dan inisialisasi:
-```bash
-firebase login
-firebase use YOUR_FIREBASE_PROJECT_ID
-```
-
-Lakukan deployment:
-```bash
-firebase deploy
-```
-
-Website Anda akan langsung live di alamat `https://[PROJECT_ID].web.app`.
 
 ---
 
