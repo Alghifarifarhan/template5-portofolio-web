@@ -27,7 +27,7 @@ export interface SiteSettings {
   contactTitle: string;
   contactSubtitle: string;
   contactBoxBgColor?: string;
-  formspreeUrl: string; // Formspree endpoint URL e.g. 'https://formspree.io/f/mqaejvyq'
+  formspreeUrl: string; // Formspree endpoint URL e.g. 'https://formspree.io/f/YOUR_FORM_ID'
   footerName: string;
   footerCopyright: string;
   footerBgColor?: string;

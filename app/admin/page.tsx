@@ -1495,11 +1495,11 @@ export default function AdminPage() {
                   type="text"
                   value={textForm.formspreeUrl || ""}
                   onChange={(e) => setTextForm({ ...textForm, formspreeUrl: e.target.value })}
-                  placeholder="Contoh: https://formspree.io/f/mqaejvyq"
+                  placeholder="Contoh: https://formspree.io/f/YOUR_FORM_ID"
                   className={`${inputClass} font-mono border-purple-500/50`}
                 />
                 <span className="block mt-1 text-[11px] text-zinc-500">
-                  Isi dengan URL Formspree Anda (misal: <code>https://formspree.io/f/mqaejvyq</code>) agar pesan dikirim langsung ke inbox email Anda.
+                  Isi dengan URL Formspree Anda (misal: <code>https://formspree.io/f/YOUR_FORM_ID</code>) agar pesan dikirim langsung ke inbox email Anda.
                 </span>
               </div>
 

@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://template5-portofolio.web.app"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://your-portfolio.web.app"
   ),
   title: "Portfolio",
   description: "Personal portfolio website built with Next.js, React, TypeScript, and Tailwind CSS.",

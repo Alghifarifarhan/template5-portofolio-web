@@ -7,9 +7,9 @@ Dokumen ini berisi panduan ringkas dan mudah dipahami untuk mengelola isi websit
 ## 🔑 1. Cara Masuk ke Halaman Admin
 
 1. Buka browser dan ketik alamat admin website Anda:
-   - **Website Online**: [https://template5-portofolio.web.app/admin](https://template5-portofolio.web.app/admin)
+   - **Website Online**: `https://[PROJECT_ID].web.app/admin` (atau domain website Anda)
    - **Komputer Lokal**: `http://localhost:3000/admin`
-2. Masukkan Password Admin (Password default: `admin123456`).
+2. Masukkan Email & Password Admin yang telah Anda daftarkan di Firebase Console.
 3. **Tips Keamanan**: Anda dapat menekan **tombol ikon mata (👁️)** di sebelah kanan kolom password untuk menampilkan atau memburamkan password saat diketik.
 
 ---
@@ -22,7 +22,7 @@ Dashboard Admin memiliki beberapa tab menu dengan fungsi masing-masing:
 
 - **Fungsi**: Mengubah sapaan utama (Judul Hero), teks bio singkat, nama tombol CV, teks bagian Kontak, dan tulisan Footer di bawah website.
 - **Formspree Link (Form Email Kontak)**:
-  - Masukkan URL Formspree Anda (contoh: `https://formspree.io/f/mqaejvyq`) pada kolom Formspree.
+  - Masukkan URL Formspree Anda (contoh: `https://formspree.io/f/YOUR_FORM_ID`) pada kolom Formspree.
   - Ketika pengunjung mengisi formulir "Get in Touch", pesan akan langsung terkirim otomatis ke inbox email Anda.
 - Jangan lupa klik tombol **Save Text Settings**.
 
